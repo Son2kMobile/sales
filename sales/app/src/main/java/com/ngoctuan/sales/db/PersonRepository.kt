@@ -14,4 +14,8 @@ class PersonRepository(app: Application) {
     fun insertPerson(acc: Person) = personDAO.insertPerson(acc)
     fun getAllPeople() = personDAO.getAllPeople()
     fun deleteAllPeople() = personDAO.deleteALlPeople()
+
+    fun searchName(name: String) = personDAO.searchName(name)
+
+    fun checkExistPhone(phoneNumber: String) = personDAO.checkExistPhone(phoneNumber)
 }

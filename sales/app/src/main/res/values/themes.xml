@@ -1,9 +1,18 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.Sales" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.Sales" parent="Theme.AppCompat.DayNight.DarkActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">#0F9D58</item>
+        <item name="colorPrimaryDark">#3A6A53</item>
+        <item name="colorAccent">#99E4C0</item>
     </style>
 
     <style name="Theme.Sales" parent="Base.Theme.Sales" />
+
+    <style name="MyActionBarStyle" parent="Base.Theme.Sales">
+        <item name="android:background">@color/black</item>
+        //
+        <item name="colorPrimary">@color/black</item>
+    </style>
 </resources>
